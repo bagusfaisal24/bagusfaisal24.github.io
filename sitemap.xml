@@ -18,7 +18,17 @@
   </url>
   
   <url>
+    <loc>https://bagusfaisal24.github.io/tags/hugo/</loc>
+    <lastmod>2019-11-19T16:53:53+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bagusfaisal24.github.io/posts/install-blog-profile-with-hugo/</loc>
+    <lastmod>2019-11-19T16:53:53+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal24.github.io/tags/</loc>
     <lastmod>2019-11-19T16:53:53+07:00</lastmod>
   </url>
   
@@ -32,10 +42,6 @@
   
   <url>
     <loc>https://bagusfaisal24.github.io/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal24.github.io/tags/</loc>
   </url>
   
 </urlset>
