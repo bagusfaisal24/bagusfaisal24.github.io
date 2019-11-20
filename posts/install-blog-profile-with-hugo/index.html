@@ -11,10 +11,12 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Install Personal Blog With Hugo In Windows"/>
-<meta name="twitter:description" content=" Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract file hugo  "/>
+<meta name="twitter:description" content="Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract hugo file that was previously downloaded. Cek version with command prompt hugo version. Create a new site, hugo new site new-site. Add a theme open diretory new-site cd new-site. git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+Note for non-git users: - If you do not have git installed, you can download the archive of the latest version of this theme from: https://github."/>
 
     <meta property="og:title" content="Install Personal Blog With Hugo In Windows" />
-<meta property="og:description" content=" Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract file hugo  " />
+<meta property="og:description" content="Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract hugo file that was previously downloaded. Cek version with command prompt hugo version. Create a new site, hugo new site new-site. Add a theme open diretory new-site cd new-site. git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+Note for non-git users: - If you do not have git installed, you can download the archive of the latest version of this theme from: https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://bagusfaisal24.github.io/posts/install-blog-profile-with-hugo/" />
 <meta property="article:published_time" content="2019-11-19T16:53:53+07:00" />
@@ -110,9 +112,41 @@
       </header>
 
       <div>
-        <ol>
+        
+
+<ol>
 <li>Download Hugo application <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></li>
-<li>Create Directory Hugo In data system C: like C:\Hugo\bin. Extract file hugo</li>
+<li>Create Directory Hugo In data system C: like C:\Hugo\bin. Extract hugo file that was previously downloaded.</li>
+<li>Cek version with command prompt <code>hugo version</code>.</li>
+<li>Create a new site, <code>hugo new site new-site</code>.</li>
+
+<li><p>Add a theme open diretory <code>new-site</code> cd new-site.
+git init
+git submodule add <a href="https://github.com/budparr/gohugo-theme-ananke.git">https://github.com/budparr/gohugo-theme-ananke.git</a> themes/ananke</p>
+
+<h1 id="note-for-non-git-users">Note for non-git users:</h1>
+
+<h1 id="if-you-do-not-have-git-installed-you-can-download-the-archive-of-the-latest">- If you do not have git installed, you can download the archive of the latest</h1>
+
+<h1 id="version-of-this-theme-from">version of this theme from:</h1>
+
+<h1 id="https-github-com-budparr-gohugo-theme-ananke-archive-master-zip"><a href="https://github.com/budparr/gohugo-theme-ananke/archive/master.zip">https://github.com/budparr/gohugo-theme-ananke/archive/master.zip</a></h1>
+
+<h1 id="extract-that-zip-file-to-get-a-gohugo-theme-ananke-master-directory">- Extract that .zip file to get a &ldquo;gohugo-theme-ananke-master&rdquo; directory.</h1>
+
+<h1 id="rename-that-directory-to-ananke-and-move-it-into-the-themes-directory">- Rename that directory to &ldquo;ananke&rdquo;, and move it into the &ldquo;themes/&rdquo; directory.</h1>
+
+<h1 id="end-of-note-for-non-git-users">End of note for non-git users.</h1>
+
+<h1 id="edit-your-config-toml-configuration-file">Edit your config.toml configuration file</h1>
+
+<h1 id="and-add-the-ananke-theme">and add the Ananke theme.</h1>
+
+<p>echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &gt;&gt; config.toml.</p></li>
+
+<li><p>Add some content, hugo new posts/first-post.md</p></li>
+
+<li><p>Start Hugo server <code>hugo server</code> open your browser Web Server is available at <a href="http://localhost:1313">http://localhost:1313</a></p></li>
 </ol>
 
       </div>
