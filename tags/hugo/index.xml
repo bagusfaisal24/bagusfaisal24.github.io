@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Bagus Faisal Khafidz</title>
-    <link>https://bagusfaisal24.github.io/tags/hugo/</link>
+    <link>http://bagusfaisal.com/tags/hugo/</link>
     <description>Recent content in hugo on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Nov 2019 16:53:53 +0700</lastBuildDate>
     
-	<atom:link href="https://bagusfaisal24.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bagusfaisal.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install Personal Blog With Hugo In Windows</title>
-      <link>https://bagusfaisal24.github.io/posts/install-blog-profile-with-hugo/</link>
+      <link>http://bagusfaisal.com/posts/install-blog-profile-with-hugo/</link>
       <pubDate>Tue, 19 Nov 2019 16:53:53 +0700</pubDate>
       
-      <guid>https://bagusfaisal24.github.io/posts/install-blog-profile-with-hugo/</guid>
+      <guid>http://bagusfaisal.com/posts/install-blog-profile-with-hugo/</guid>
       <description>Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract hugo file that was previously downloaded. Cek version with command prompt hugo version. Create a new site, hugo new site new-site. Add a theme open diretory new-site cd new-site. git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke Note for non-git users:
  If you do not have git installed, you can download the archive of the latest version of this theme from: https://github.</description>
     </item>
