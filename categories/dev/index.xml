@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Bagus Faisal Khafidz</title>
-    <link>https://bagusfaisal.com/posts/</link>
-    <description>Recent content in Posts on Bagus Faisal Khafidz</description>
+    <title>dev on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/categories/dev/</link>
+    <description>Recent content in dev on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Nov 2019 10:12:38 +0700</lastBuildDate>
     
-	<atom:link href="https://bagusfaisal.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bagusfaisal.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,16 +31,6 @@ In addition to the pycon conference held in Indonesia, there were also some fore
       <description>Sebelum saya menuliskan pengalaman 1 tahun bekerja sebagai software engineer, sebelumnya mohon maaf apabila tulisan saya ini jelek, sudah lama tidak menulis artikel.
 Oke mulai ya, saat kuliah saya mengambil jurusan Teknik Informatika di Kampus Universitas Ahmad dahlan di Yogyakarta. Saat masuk perkuliahan saya sedikit kaget karena perkuliahan semua membahas ke programming, karena saat SMA saya di IPA sedikit pengalaman di dunia TI.
 Singkatnya saya lulus 4th tepat dengan gelar S.</description>
-    </item>
-    
-    <item>
-      <title>Install Personal Blog With Hugo In Windows</title>
-      <link>https://bagusfaisal.com/posts/install-blog-profile-with-hugo/</link>
-      <pubDate>Tue, 19 Nov 2019 16:53:53 +0700</pubDate>
-      
-      <guid>https://bagusfaisal.com/posts/install-blog-profile-with-hugo/</guid>
-      <description>Download Hugo application https://github.com/gohugoio/hugo/releases Create Directory Hugo In data system C: like C:\Hugo\bin. Extract hugo file that was previously downloaded. Cek version with command prompt hugo version. Create a new site, hugo new site new-site. Add a theme open diretory new-site cd new-site. git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke Note for non-git users:
- If you do not have git installed, you can download the archive of the latest version of this theme from: https://github.</description>
     </item>
     
   </channel>

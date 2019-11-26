@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pycon-indonesia on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/tags/pycon-indonesia/</link>
+    <description>Recent content in pycon-indonesia on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Nov 2019 10:12:38 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/tags/pycon-indonesia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pycon Conference 2019</title>
+      <link>https://bagusfaisal.com/posts/pycon-conference-2019/</link>
+      <pubDate>Tue, 26 Nov 2019 10:12:38 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/pycon-conference-2019/</guid>
+      <description>Some time ago I attended the 2019 pycon conference in Surabaya, East Java. Pycon is an annual event held by the Indonesian python programming language community (python id).
+The interesting thing at the Pycon conference is the event that contains python programming material, such as learning machines, big data, and others.
+In addition to the pycon conference held in Indonesia, there were also some foreign developers including India, Japan, the Philippines, and Europe.</description>
+    </item>
+    
+  </channel>
+</rss>
