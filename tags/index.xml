@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 10:12:38 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 09:19:26 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>software engineer</title>
+      <link>https://bagusfaisal.com/tags/software-engineer/</link>
+      <pubDate>Sun, 08 Dec 2019 09:19:26 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/tags/software-engineer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pycon-indonesia</title>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 26 Nov 2019 10:12:38 +0700</pubDate>
       
       <guid>https://bagusfaisal.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software engineer</title>
-      <link>https://bagusfaisal.com/tags/software-engineer/</link>
-      <pubDate>Fri, 22 Nov 2019 08:33:42 +0700</pubDate>
-      
-      <guid>https://bagusfaisal.com/tags/software-engineer/</guid>
       <description></description>
     </item>
     

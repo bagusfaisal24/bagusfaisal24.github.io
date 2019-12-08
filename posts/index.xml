@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 10:12:38 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 09:19:26 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simple Email Service With Sendgrid Api And Spring Boot</title>
+      <link>https://bagusfaisal.com/posts/simple-email-service/</link>
+      <pubDate>Sun, 08 Dec 2019 09:19:26 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/simple-email-service/</guid>
+      <description>Kali ini saya akan berbagi bagaimana caranya membuat email service dengan sendgrid Api.
+Bahasa pemrograman yang digunakan kali ini yaitu Java dengan framework backend Spring boot. Cerita singkatnya begini spring boot akan mengirimkan sebuah request email ke sendgrid, dan sendgrid akan mengirimkan/ meneruskan ke email target.
+ Kamu harus mempunyai Api key dari sendgrid, api key ini yang akan digunakan untuk mengirimkan request email ke sendgrid. Jika belum punya registrasi terlebih dahulu di https://app.</description>
+    </item>
     
     <item>
       <title>Pycon Conference 2019</title>
