@@ -106,7 +106,7 @@ Bahasa pemrograman yang digunakan kali ini yaitu Java dengan framework backend S
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2 minutes read
+              One minute read
             </span>
           </div>
           <div class="categories">
@@ -134,45 +134,16 @@ Bahasa pemrograman yang digunakan kali ini yaitu Java dengan framework backend S
 
 <li><p>Buat struktur project pada umumnya yang ada di spring boot seperti controller, form, service, util</p></li>
 
-<li><p>Buat class service, class ini merupakan service utama yang digunakan untuk request email ke sendgrid. Berikut saya kasih contoh potongan codingnya.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">@Service
-<span style="color:#f00">public class </span>Example {   
-
-@Value(<span style="color:#0ff;font-weight:bold">&#34;${sendgrid.api.key:&#39;&#39;}&#34;</span>)    
-<span style="color:#f00">private String </span>apiKey;    
-
-<span style="color:#f00">public void </span>sendEmail(<span style="color:#f00">EmailForm form</span>) <span style="color:#f00">throws IOException </span>{     
-
-<span style="color:#f00">Email from </span>= <span style="color:#fff;font-weight:bold">new</span> Email(form.<span style="color:#007f7f">getEmailFrom</span>());      
-<span style="color:#f00">String subject </span>= <span style="color:#0ff;font-weight:bold">&#34;Sending with Twilio SendGrid is Fun&#34;</span>;       
-<span style="color:#f00">Email to </span>= <span style="color:#fff;font-weight:bold">new</span> Email(form.<span style="color:#007f7f">getTarget</span>());       
-<span style="color:#f00">Content content </span>= <span style="color:#fff;font-weight:bold">new</span> Content(<span style="color:#0ff;font-weight:bold">&#34;text/plain&#34;</span>, <span style="color:#0ff;font-weight:bold">&#34;and easy to do anywhere, even with Java&#34;</span>);     
-<span style="color:#f00">Mail mail </span>= <span style="color:#fff;font-weight:bold">new</span> Mail(from, subject, to, content);        
-<span style="color:#f00">SendGrid sg </span>= <span style="color:#fff;font-weight:bold">new</span> SendGrid(apiKey);        
-<span style="color:#f00">Request request </span>= <span style="color:#fff;font-weight:bold">new</span> Request();     
-
-<span style="color:#fff;font-weight:bold">try</span> {           
-request.<span style="color:#007f7f">setMethod</span>(Method.<span style="color:#007f7f">POST</span>);           
-request.<span style="color:#007f7f">setEndpoint</span>(<span style="color:#0ff;font-weight:bold">&#34;mail/send&#34;</span>);            
-request.<span style="color:#007f7f">setBody</span>(mail.<span style="color:#007f7f">build</span>());           
-<span style="color:#f00">Response response </span>= sg.<span style="color:#007f7f">api</span>(request);          
-System.<span style="color:#007f7f">out</span>.<span style="color:#007f7f">println</span>(response.<span style="color:#007f7f">getStatusCode</span>());      
-System.<span style="color:#007f7f">out</span>.<span style="color:#007f7f">println</span>(response.<span style="color:#007f7f">getBody</span>());            
-System.<span style="color:#007f7f">out</span>.<span style="color:#007f7f">println</span>(response.<span style="color:#007f7f">getHeaders</span>());      
-} <span style="color:#fff;font-weight:bold">catch</span> (<span style="color:#f00">IOException ex</span>) {           
-    <span style="color:#fff;font-weight:bold">throw</span> ex;       
-		}  
-}
-}</code></pre></div></li>
-
-<li><p>Buat file application.yml untuk register Api key yang telah dibuat sebelumnya.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">app:
-server:   
-port: <span style="color:#ff0;font-weight:bold">8080</span>
-sendgrid:    
-api:       
-key: <span style="color:#0ff;font-weight:bold">&#34;your send grid API key&#34;</span></code></pre></div></li>
+<li><p>Buat class service, class ini merupakan service utama yang digunakan untuk request email ke sendgrid. Berikut saya kasih contoh potongan codingnya.</p></li>
 </ol>
+
+<p><script src="https://gist.github.com/bagusfaisal24/8985cd350cf71dc87f4149b6f0448827.js"></script></p>
+
+<ol>
+<li>Buat file application.yml untuk register Api key yang telah dibuat sebelumnya.</li>
+</ol>
+
+<p><script src="https://gist.github.com/bagusfaisal24/1b9900420aee7aad9a150dd2f78997b8.js"></script></p>
 
 <p>Untuk lebih lengkapnya bisa clone repository github <a href="https://github.com/bagusfaisal24/email-ku.git">https://github.com/bagusfaisal24/email-ku.git</a></p>
 
