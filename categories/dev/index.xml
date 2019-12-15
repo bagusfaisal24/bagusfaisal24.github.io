@@ -6,10 +6,22 @@
     <description>Recent content in dev on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Dec 2019 09:19:26 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2019 18:57:55 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tips Dasar Debugging Program</title>
+      <link>https://bagusfaisal.com/posts/tips-debugger-programs/</link>
+      <pubDate>Sun, 15 Dec 2019 18:57:55 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/tips-debugger-programs/</guid>
+      <description>Tips Dasar Debugging Program
+Hay gaess, gimana kabarnya semoga sehat teruuss ya? keep learning :))
+Kali ini saya akan berbagi pengalaman debugging program/ aplikasi, keseharian saya ngoding dengan bahasa pemrograman Java. IDEA yang saya pakai intelijj ini bukan endorse ya hehe.
+Unggul nya intelij sudah terdapat fitur debug di dalamnya, kalau temen - temen ga memakai IDEA yang sudah ada fitur debug, temen - temen bisa tambahkan aplikasi tambahan untuk debugging kalau di PHP ada namanya xdebug dan lainnya.</description>
+    </item>
     
     <item>
       <title>Simple Email Service With Sendgrid Api And Spring Boot</title>
