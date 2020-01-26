@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rabbit-mq on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/tags/rabbit-mq/</link>
+    <description>Recent content in rabbit-mq on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2020 09:55:55 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/tags/rabbit-mq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Message Queue Dengan Rabbit MQ di Spring Boot</title>
+      <link>https://bagusfaisal.com/posts/message-queue-rabbit-mq/</link>
+      <pubDate>Sun, 26 Jan 2020 09:55:55 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/message-queue-rabbit-mq/</guid>
+      <description>Message Queue Dengan Rabbit MQ di Spring Boot Selamat tahun baru 2020 haha :D udah mau 1 bulan baru ucapin tahun baruan, bagaimana kabarnya gaes? semoga senantiasa diberi kesehatan, dan dimudahkan segala urusan nya amin.
+Pada kesempatan kali ini saya akan berbagi tulisan bagaimana cara membuat message queue dengan rabbit mq di spring boot. Kalau teman-teman membuat aplikasi yang sudah service to service atau biasa disebut microservice disarankan banget nih memakai message queue atau broker karena akan memudahkan menjalankan proses bisnisnya.</description>
+    </item>
+    
+  </channel>
+</rss>

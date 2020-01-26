@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://bagusfaisal.com/</loc>
-    <lastmod>2019-12-15T18:57:55+07:00</lastmod>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/categories/</loc>
-    <lastmod>2019-12-15T18:57:55+07:00</lastmod>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/categories/dev/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/message-queue-rabbit-mq/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/message-broker/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/rabbit-mq/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/</loc>
+    <lastmod>2020-01-26T09:55:55+07:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://bagusfaisal.com/categories/dev/</loc>
-    <lastmod>2019-12-15T18:57:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal.com/posts/</loc>
-    <lastmod>2019-12-15T18:57:55+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bagusfaisal.com/tags/software-engineer/</loc>
-    <lastmod>2019-12-15T18:57:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal.com/tags/</loc>
     <lastmod>2019-12-15T18:57:55+07:00</lastmod>
   </url>
   

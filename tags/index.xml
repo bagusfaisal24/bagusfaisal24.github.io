@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2019 18:57:55 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 09:55:55 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>message-broker</title>
+      <link>https://bagusfaisal.com/tags/message-broker/</link>
+      <pubDate>Sun, 26 Jan 2020 09:55:55 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/tags/message-broker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rabbit-mq</title>
+      <link>https://bagusfaisal.com/tags/rabbit-mq/</link>
+      <pubDate>Sun, 26 Jan 2020 09:55:55 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/tags/rabbit-mq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>software engineer</title>
