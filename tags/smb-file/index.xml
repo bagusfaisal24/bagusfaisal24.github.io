@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smb file on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/tags/smb-file/</link>
+    <description>Recent content in smb file on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Feb 2020 16:13:56 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/tags/smb-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Push File With Samba Client Java</title>
+      <link>https://bagusfaisal.com/posts/samba-file-java-sprint-boot/</link>
+      <pubDate>Sat, 22 Feb 2020 16:13:56 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/samba-file-java-sprint-boot/</guid>
+      <description>Hallo hallo whaatsup kali ini saya coba bagikan sedikit ilmu dari case yang saya kerjakan beberapa waktu lalu, yakni push file ke Samba server dengan samba client.
+Beberapa comporate dalam menjalankan bisnis nya ada yang menggunakan share folder, dimana share folder ini berguna apabila user ingin menggunakan komputer yang berbeda. Share folder ini bersifat private karena berisi file-file penting apabila ingin masuk membutuhkan authentikasi.
+Nah case yang beberapa waktu lalu saya kerjakan yakni membuat program push file-file report ke share folder ke masing departement departement, jadi user di department tersebut tidak perlu download file lewat sistem tapi tinggal masuk share folder yang dimiliki.</description>
+    </item>
+    
+  </channel>
+</rss>
