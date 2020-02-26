@@ -18,7 +18,7 @@
       
       <guid>https://bagusfaisal.com/posts/samba-file-java-sprint-boot/</guid>
       <description>Hallo hallo whaatsup kali ini saya coba bagikan sedikit ilmu dari case yang saya kerjakan beberapa waktu lalu, yakni push file ke Samba server dengan samba client.
-Beberapa comporate dalam menjalankan bisnis nya ada yang menggunakan share folder, dimana share folder ini berguna apabila user ingin menggunakan komputer yang berbeda. Share folder ini bersifat private karena berisi file-file penting apabila ingin masuk membutuhkan authentikasi.
+Beberapa comporate dalam menjalankan bisnis nya ada yang menggunakan share folder, dimana share folder ini berguna apabila user ingin menggunakan komputer yang berbeda saat bekerja. Share folder ini bersifat private karena berisi file-file penting apabila ingin masuk membutuhkan authentikasi.
 Nah case yang beberapa waktu lalu saya kerjakan yakni membuat program push file-file report ke share folder ke masing departement departement, jadi user di department tersebut tidak perlu download file lewat sistem tapi tinggal masuk share folder yang dimiliki.</description>
     </item>
     
