@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spring-security on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/categories/spring-security/</link>
+    <description>Recent content in spring-security on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2020 17:00:31 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/categories/spring-security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generate JKS Java Keystore Menggunakan Keytool dan OpenSSL</title>
+      <link>https://bagusfaisal.com/posts/generate-keystore-open-ssl/</link>
+      <pubDate>Tue, 07 Apr 2020 17:00:31 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/generate-keystore-open-ssl/</guid>
+      <description>Persiapan Kali ini saya akan berbagi pengalaman cara generate keystore java yang akan digunakan sebagai signkey di JWT Tokens. Hal pertama yang perlu disiapkan yakni Java SE Environment (JRE) dan OpenSSL sudah terinstall di desktop anda, dan pastikan sudah masuk ke environment variable kalau di system operation windows, contohnya seperti gambar dibawah.
+Implementasi Generate keystore menggunakan keytool  Buka windows PowerShell Ketikan di powershell dengan command contoh seperti dibawah untuk generate JKS file</description>
+    </item>
+    
+  </channel>
+</rss>
