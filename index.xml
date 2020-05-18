@@ -6,10 +6,21 @@
     <description>Recent content on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2020 10:59:28 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 12:08:03 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Limit Login Attemps in Springboot Ouath2</title>
+      <link>https://bagusfaisal.com/posts/limit-login-attemps/</link>
+      <pubDate>Mon, 18 May 2020 12:08:03 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/limit-login-attemps/</guid>
+      <description>Aspek keamanan dalam development aplikasi harus diutamakan, karena didalam aplikasi yang kita buat nanti akan berisi data-data penting yang harus dilindungi.
+Kali ini saya akan menulis cara implementasi keamanan saat login didalam aplikasi web, cara ini bisa diimplementasikan di framework web development lainnya selain springboot, asalkan mengerti algoritma penerapannya.
+Peretas memiliki banyak cara untuk membobol keamanan dalam sebuah website salah satunya bruteforce percobaan yang berulang-ulang saat login, jika saat login tidak dilengkapi cek login attemps makan peretas bakal berupaya semaksimal mungkin untuk membobol.</description>
+    </item>
     
     <item>
       <title>Custom Message Error Bad Credentials Login / Authentication Spring</title>
