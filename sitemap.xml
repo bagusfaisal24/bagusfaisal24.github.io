@@ -4,26 +4,56 @@
   
   <url>
     <loc>https://bagusfaisal.com/</loc>
-    <lastmod>2020-05-18T12:08:03+07:00</lastmod>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/ngrok-setup-installation/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/categories/</loc>
-    <lastmod>2020-05-18T12:08:03+07:00</lastmod>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/categories/dev/</loc>
-    <lastmod>2020-05-18T12:08:03+07:00</lastmod>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bagusfaisal.com/posts/limit-login-attemps/</loc>
-    <lastmod>2020-05-18T12:08:03+07:00</lastmod>
+    <loc>https://bagusfaisal.com/tags/ngrok/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/categories/ngrok/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/posts/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/categories/public-url/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/webhook/</loc>
+    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/limit-login-attemps/</loc>
     <lastmod>2020-05-18T12:08:03+07:00</lastmod>
   </url>
   
@@ -49,11 +79,6 @@
   
   <url>
     <loc>https://bagusfaisal.com/tags/smb-file/</loc>
-    <lastmod>2020-02-22T16:13:56+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal.com/tags/</loc>
     <lastmod>2020-02-22T16:13:56+07:00</lastmod>
   </url>
   

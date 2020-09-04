@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2020 12:08:03 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 10:12:12 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>dev</title>
       <link>https://bagusfaisal.com/categories/dev/</link>
-      <pubDate>Mon, 18 May 2020 12:08:03 +0700</pubDate>
+      <pubDate>Fri, 04 Sep 2020 10:12:12 +0700</pubDate>
       
       <guid>https://bagusfaisal.com/categories/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ngrok</title>
+      <link>https://bagusfaisal.com/categories/ngrok/</link>
+      <pubDate>Fri, 04 Sep 2020 10:12:12 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/categories/ngrok/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public url</title>
+      <link>https://bagusfaisal.com/categories/public-url/</link>
+      <pubDate>Fri, 04 Sep 2020 10:12:12 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/categories/public-url/</guid>
       <description></description>
     </item>
     

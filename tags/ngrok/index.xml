@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ngrok on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/tags/ngrok/</link>
+    <description>Recent content in ngrok on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2020 10:12:12 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara Setup Instalasi Ngrok di Windows</title>
+      <link>https://bagusfaisal.com/posts/ngrok-setup-installation/</link>
+      <pubDate>Fri, 04 Sep 2020 10:12:12 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/ngrok-setup-installation/</guid>
+      <description>Ngrok adalah platform webhook public url, kegunaan ngrok salah satunya yakni expose local webserver anda agar bisa di akses publik tanpa hosting ataupun memakai vps.
+kali ini saya akan memberikan cara setup instalasi ngrok di local agar website anda bisa di akses. Gambaran arsitektur cara kerja ngrok adalah seperti dibawah ini.
+https://in.pinterest.com/pin/685321268270571841/
+dari gambar diatas ngrok dapat diakses client melalui internet dengan menghiraukan firewall, karena tanpa melalui firewall sangat tidak disarankan untuk menggunakan ngrok pada environment production aplikasi yang berskala besar karena sangat beresiko jika website kita terbobol ini pendapat pribadi penulis.</description>
+    </item>
+    
+  </channel>
+</rss>
