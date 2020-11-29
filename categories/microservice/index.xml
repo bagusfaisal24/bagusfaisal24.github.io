@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microservice on Bagus Faisal Khafidz</title>
+    <link>https://bagusfaisal.com/categories/microservice/</link>
+    <description>Recent content in microservice on Bagus Faisal Khafidz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Nov 2020 12:26:18 +0700</lastBuildDate>
+    
+	<atom:link href="https://bagusfaisal.com/categories/microservice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple Microservice With Open Feign</title>
+      <link>https://bagusfaisal.com/posts/microservice-with-open-feign/</link>
+      <pubDate>Sun, 29 Nov 2020 12:26:18 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/microservice-with-open-feign/</guid>
+      <description>1. Overview
+In this tutorial we&amp;rsquo;re going to describe how to use open feign on spring boot. Open Feign is a REST Client that is useful for service to service communication as a microservice.
+2. Dependencies
+first create a spring boot project and add this library to your build.gradle.
+compile group: &#39;io.github.openfeign&#39;, name: &#39;feign-core&#39;, version: &#39;10.10.1&#39;
+compile group: &#39;com.netflix.feign&#39;, name: &#39;feign-gson&#39;, version: &#39;8.14.3&#39;
+3. Feign Client
+Create an interface class first, this class is intended as a client who will request data via REST Api to other services / applications.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,21 +4,46 @@
   
   <url>
     <loc>https://bagusfaisal.com/</loc>
-    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal.com/posts/ngrok-setup-installation/</loc>
-    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/categories/</loc>
-    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bagusfaisal.com/categories/dev/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/categories/microservice/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/open-feign/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/microservice-with-open-feign/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/tags/</loc>
+    <lastmod>2020-11-29T12:26:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bagusfaisal.com/posts/ngrok-setup-installation/</loc>
     <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   
@@ -33,17 +58,7 @@
   </url>
   
   <url>
-    <loc>https://bagusfaisal.com/posts/</loc>
-    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bagusfaisal.com/categories/public-url/</loc>
-    <lastmod>2020-09-04T10:12:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bagusfaisal.com/tags/</loc>
     <lastmod>2020-09-04T10:12:12+07:00</lastmod>
   </url>
   

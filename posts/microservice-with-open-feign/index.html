@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Bagus Faisal Khafidz">
+    <meta name="description" content="John Doe&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simple Microservice With Open Feign"/>
+<meta name="twitter:description" content="1. Overview
+In this tutorial we&rsquo;re going to describe how to use open feign on spring boot. Open Feign is a REST Client that is useful for service to service communication as a microservice.
+2. Dependencies
+first create a spring boot project and add this library to your build.gradle.
+compile group: &#39;io.github.openfeign&#39;, name: &#39;feign-core&#39;, version: &#39;10.10.1&#39;
+compile group: &#39;com.netflix.feign&#39;, name: &#39;feign-gson&#39;, version: &#39;8.14.3&#39;
+3. Feign Client
+Create an interface class first, this class is intended as a client who will request data via REST Api to other services / applications."/>
+
+    <meta property="og:title" content="Simple Microservice With Open Feign" />
+<meta property="og:description" content="1. Overview
+In this tutorial we&rsquo;re going to describe how to use open feign on spring boot. Open Feign is a REST Client that is useful for service to service communication as a microservice.
+2. Dependencies
+first create a spring boot project and add this library to your build.gradle.
+compile group: &#39;io.github.openfeign&#39;, name: &#39;feign-core&#39;, version: &#39;10.10.1&#39;
+compile group: &#39;com.netflix.feign&#39;, name: &#39;feign-gson&#39;, version: &#39;8.14.3&#39;
+3. Feign Client
+Create an interface class first, this class is intended as a client who will request data via REST Api to other services / applications." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bagusfaisal.com/posts/microservice-with-open-feign/" />
+<meta property="article:published_time" content="2020-11-29T12:26:18+07:00" />
+<meta property="article:modified_time" content="2020-11-29T12:26:18+07:00" />
+
+
+    
+      <base href="https://bagusfaisal.com/posts/microservice-with-open-feign/">
+    
+    <title>
+  Simple Microservice With Open Feign · Bagus Faisal Khafidz
+</title>
+
+    
+      <link rel="canonical" href="https://bagusfaisal.com/posts/microservice-with-open-feign/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <script data-ad-client="ca-pub-4788460012073339" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    
+      
+      
+      <link rel="stylesheet" href="https://bagusfaisal.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://bagusfaisal.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://bagusfaisal.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.59.1" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://bagusfaisal.com/">
+      Bagus Faisal Khafidz
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://bagusfaisal.com/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://bagusfaisal.com/posts/">Blog</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Simple Microservice With Open Feign</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-11-29T12:26:18&#43;07:00'>
+                November 29, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="https://bagusfaisal.com/categories/dev/">dev</a>
+      <span class="separator">•</span>
+    <a href="https://bagusfaisal.com/categories/microservice/">microservice</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://bagusfaisal.com/tags/open-feign/">open-feign</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p><strong>1. Overview</strong></p>
+
+<p>In this tutorial  we&rsquo;re going to describe how to use open feign on spring boot. Open Feign is a REST Client that is useful for service to service communication as a microservice.</p>
+
+<p><strong>2. Dependencies</strong></p>
+
+<p>first create a spring boot project and add this library to your <em>build.gradle</em>.</p>
+
+<p><code>compile group: 'io.github.openfeign', name: 'feign-core', version: '10.10.1'</code></p>
+
+<p><code>compile group: 'com.netflix.feign', name: 'feign-gson', version: '8.14.3'</code></p>
+
+<p><strong>3. Feign  Client</strong></p>
+
+<p>Create an interface class first, this class is intended as a client who will request data via REST Api to other services / applications.</p>
+
+<script src="https://gist.github.com/bagusfaisal24/16e0366c128157966f922f6306e9dedb.js"></script>
+
+<script src="https://gist.github.com/bagusfaisal24/949e5c211d66a07c2c4e1b95c5c3bd56.js"></script>
+
+<p><strong>4. Data Pojo</strong></p>
+
+<p>Create class data pojo, this class for construction data that we will receive from other services / applications.</p>
+
+<script src="https://gist.github.com/bagusfaisal24/81f004632e32a10cb5c1e962522b797b.js"></script>
+
+<p><strong>5. Controller</strong></p>
+
+<script src="https://gist.github.com/bagusfaisal24/9d8b4c03a395fcdd0d715851135c4174.js"></script>
+
+<p>Reference : <a href="https://github.com/bagusfaisal24/springboot-simple-openfeign">https://github.com/bagusfaisal24/springboot-simple-openfeign</a></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bagusfaisal" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2020
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+       · 
+      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-153151214-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>
