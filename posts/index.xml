@@ -6,10 +6,25 @@
     <description>Recent content in Posts on Bagus Faisal Khafidz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Nov 2020 12:26:18 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 13:17:52 +0700</lastBuildDate>
     
 	<atom:link href="https://bagusfaisal.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting Up Web Server Internet Information Services (IIS) on Windows Server</title>
+      <link>https://bagusfaisal.com/posts/setting-up-web-server-iis/</link>
+      <pubDate>Thu, 04 Mar 2021 13:17:52 +0700</pubDate>
+      
+      <guid>https://bagusfaisal.com/posts/setting-up-web-server-iis/</guid>
+      <description>1. Overview
+In this tutorial we&amp;rsquo;re going to share how to setting up Web Server Internet Information Services (IIS) on windows server for deployment node js application. IIS is a web server feature on windows server.
+2. Install the Web Server(IIS) in Server Manager Dashboard
+3. Create new sites
+Right click Sites and then setting up, follow step bellow.
+4. Open your sites
+Open your website with url / ip address setting up before.</description>
+    </item>
     
     <item>
       <title>Simple Microservice With Open Feign</title>
